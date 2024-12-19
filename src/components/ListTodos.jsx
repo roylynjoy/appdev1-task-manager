@@ -61,7 +61,7 @@ const ListTodos = ({ user }) => {
     return (
         <>
             <div>
-            <h1>React Todo App</h1>
+            <h1>Task Manager</h1>
             <h3>Welcome, { user.displayName || user.email } | <SignOut /></h3>
             
             <input type="text" value={newTodo} placeholder='Add todo' onChange={(e) => setNewTodo(e.target.value)} />
